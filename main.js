@@ -85,33 +85,34 @@ function buildCategories() {
         setCategories(catArray)
     })
 
-    //RESET BOARD AND $$ AMOUNT IF NEEDED
+//RESET BOARD AND $$ AMOUNT IF NEEDED
 
-    function resetBoard() {
-        let clueParent = document.getElementById('clue-board')
-        while (clueParent.firstChild) {
-            clueParent.removeChild(clueParent.firstChild)
-        }
-        let catParent = document.getElementById('category-row')
-        while (catParent.firstChild) {
-            catParent.removeChild(catParent.firstChild)
-        }
-        document.getElementById('score').innerText = 0
-        initBoard()
-        initCatRow()
+function resetBoard() {
+    let clueParent = document.getElementById('clue-board')
+    while (clueParent.firstChild) {
+        clueParent.removeChild(clueParent.firstChild)
     }
-
-    //LOAD CATEGORIES TO THE BOARD
-
-    function setCategories(catArray) {
-        let element = document.getElementById('category-row')
-        let children = element.children
-        for (let i = 0; i < children.length; i++) {
-            children[i].innerHTML = catArray[i].title
-        }
+    let catParent = document.getElementById('category-row')
+    while (catParent.firstChild) {
+        catParent.removeChild(catParent.firstChild)
     }
+    document.getElementById('score').innerText = 0
+    initBoard()
+    initCatRow()
 }
 
+//LOAD CATEGORIES TO THE BOARD
+
+function setCategories(catArray) {
+    let element = document.getElementById('category-row')
+    let children = element.children
+    for (let i = 0; i < children.length; i++) {
+        children[i].innerHTML = catArray[i].title
+    }
+}
+}
+
+//FIGURE OUT WHICH ITEM WAS CLICKED
 
 function getClue(event) {
     let child = event.currentTarget
