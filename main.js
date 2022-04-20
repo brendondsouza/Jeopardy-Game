@@ -85,31 +85,31 @@ function buildCategories() {
         setCategories(catArray)
     })
 
-//RESET BOARD AND $$ AMOUNT IF NEEDED
+    //RESET BOARD AND $$ AMOUNT IF NEEDED
 
-function resetBoard() {
-    let clueParent = document.getElementById('clue-board')
-    while (clueParent.firstChild) {
-        clueParent.removeChild(clueParent.firstChild)
+    function resetBoard() {
+        let clueParent = document.getElementById('clue-board')
+        while (clueParent.firstChild) {
+            clueParent.removeChild(clueParent.firstChild)
+        }
+        let catParent = document.getElementById('category-row')
+        while (catParent.firstChild) {
+            catParent.removeChild(catParent.firstChild)
+        }
+        document.getElementById('score').innerText = 0
+        initBoard()
+        initCatRow()
     }
-    let catParent = document.getElementById('category-row')
-    while (catParent.firstChild) {
-        catParent.removeChild(catParent.firstChild)
-    }
-    document.getElementById('score').innerText = 0
-    initBoard()
-    initCatRow()
-}
 
-//LOAD CATEGORIES TO THE BOARD
+    //LOAD CATEGORIES TO THE BOARD
 
-function setCategories(catArray) {
-    let element = document.getElementById('category-row')
-    let children = element.children
-    for (let i = 0; i < children.length; i++) {
-        children[i].innerHTML = catArray[i].title
+    function setCategories(catArray) {
+        let element = document.getElementById('category-row')
+        let children = element.children
+        for (let i = 0; i < children.length; i++) {
+            children[i].innerHTML = catArray[i].title
+        }
     }
-}
 }
 
 //FIGURE OUT WHICH ITEM WAS CLICKED
@@ -138,6 +138,7 @@ function showQuestion(clue, target, boxValue) {
     target.removeEventListener('click', getClue, false)
     evaluateAnswer(userAnswer, correctAnswer, possiblePoints)
 }
+
 //EVALUATE ANSWER
 
 function evaluateAnswer(userAnswer, correctAnswer, possiblePoints) {
