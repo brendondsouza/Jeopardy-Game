@@ -3,7 +3,6 @@
 initCatRow()
 initBoard()
 
-
 document.querySelector('button').addEventListener('click', buildCategories)
 
 //CREATE CATEGORY ROW

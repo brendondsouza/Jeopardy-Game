@@ -66,3 +66,7 @@ span {
 .clicked-box {
   font-size: 1rem;
 }
+
+li{
+  list-style: none;
+}
