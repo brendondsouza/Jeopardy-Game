@@ -150,12 +150,12 @@ function evaluateAnswer(userAnswer, correctAnswer, possiblePoints) {
 //AWARD POINTS
 
 function awardPoints(checkAnswer, confirmAnswer, possiblePoints) {
-    if (!(checkAnswer === 'Incorrect' && confirmAnswer === true)) {
+    if(!(checkAnswer === 'Incorrect' && confirmAnswer === true)){
         let target = document.getElementById('score')
         let currentScore = +(target.innerText)
         currentScore += possiblePoints
         target.innerText = currentScore
-    } else {
+    }else{
         alert('No points awarded')
     }
 }
