@@ -8,6 +8,7 @@ body {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  color: wheat;
 }
 
 button {
@@ -18,6 +19,7 @@ button {
 span {
   font-size: 2rem;
   font-weight: bold;
+  color: white;
 }
 
 #game-container {
@@ -69,4 +71,12 @@ span {
 
 li{
   list-style: none;
+}
+
+body{
+  background-image: url('assets/jeopardy.webp');
+}
+
+a,li{
+  color: wheat;
 }
