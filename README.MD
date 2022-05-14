@@ -22,12 +22,43 @@ You don't have to include this section but interviewers *love* that you can not 
 
 No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+## Other projects:
+Take a look at some of my other projects:
 
-**Palettable:** https://github.com/alecortega/palettable
+<!-- **Jeopard-ish! the Game:** 
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+**NASA's Astronomy Picture of the Day:** https://github.com/brendondsouza/nasa-apod
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**"That's What She Said":** https://github.com/brendondsouza/The-Office
+
+**My portfolio:** https://github.com/brendondsouza/my-portfolio -->
+
+<table bordercolor="#66b2b2">
+  
+  <tr>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/brendondsouza/nasa-apod">NASA's Astronomy Picture of the Day</a>
+        <br />
+      <a target="_blank" href="https://github.com/brendondsouza/nasa-apod">
+            <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/nasa.gif" width="100%"  alt="Rigley 2"/>
+        </a>
+    </td>
+     <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/brendondsouza/my-portfolio">My Portfolio</a>
+        <br />
+        <a target="_blank" href="https://github.com/brendondsouza/my-portfolio">
+          <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/portfolio.gif" width="100%" alt="Portfolio"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/brendondsouza/The-Office">"That's What She Said"</a>
+      <br />
+        <a target="_blank" href="https://github.com/brendondsouza/The-Office">
+          <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/office.gif" width="100%" alt="Travelara.org"/>
+        </a>
+    </td>
+   
+  </tr>
+</table>
+
 
