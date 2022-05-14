@@ -30,7 +30,7 @@ Take a look at some of my other projects:
 <a target="_blank" href="https://github.com/brendondsouza/nasa-apod">NASA Picture of the Day</a>
         <br />
       <a target="_blank" href="https://github.com/brendondsouza/nasa-apod">
-            <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/nasa.gif" width="100%"  alt="Rigley 2"/>
+            <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/nasa.gif" width="100%"  alt="nasa app"/>
         </a>
     </td>
      <td width="33.3%" valign="top">
@@ -44,7 +44,7 @@ Take a look at some of my other projects:
 <a target="_blank" href="https://github.com/brendondsouza/The-Office">"That's What She Said"</a>
       <br />
         <a target="_blank" href="https://github.com/brendondsouza/The-Office">
-          <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/office.gif" width="100%" alt="Travelara.org"/>
+          <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/office.gif" width="100%" alt="the office app"/>
         </a>
     </td>
    
