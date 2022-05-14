@@ -27,7 +27,7 @@ Take a look at some of my other projects:
   
   <tr>
     <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/brendondsouza/nasa-apod">NASA's Astronomy Picture of the Day</a>
+<a target="_blank" href="https://github.com/brendondsouza/nasa-apod">NASA Astronomy Picture of the Day</a>
         <br />
       <a target="_blank" href="https://github.com/brendondsouza/nasa-apod">
             <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/nasa.gif" width="100%"  alt="Rigley 2"/>
