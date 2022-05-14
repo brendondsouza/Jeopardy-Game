@@ -3,7 +3,7 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 **Link to project:** https://jeopard-ish.netlify.app
 
-<img src="assets/jeopardy.gif" width="100%" alt="Jeopardy game"/>
+<img src="assets/jeopardy.gif"  alt="Jeopardy game"/>
 
 ## How It's Made:
 
