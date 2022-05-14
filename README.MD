@@ -1,6 +1,6 @@
 
 
-# My Awesome Project
+# Jeopard-ish! the Game
 Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
 
 **Link to project:** https://jeopard-ish.netlify.app
@@ -24,14 +24,6 @@ No matter what your experience level, being an engineer means continuously learn
 
 ## Other projects:
 Take a look at some of my other projects:
-
-<!-- **Jeopard-ish! the Game:** 
-
-**NASA's Astronomy Picture of the Day:** https://github.com/brendondsouza/nasa-apod
-
-**"That's What She Said":** https://github.com/brendondsouza/The-Office
-
-**My portfolio:** https://github.com/brendondsouza/my-portfolio -->
 
 <table bordercolor="#66b2b2">
   
