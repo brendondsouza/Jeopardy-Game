@@ -1,5 +1,5 @@
 # Jeopard-ish! the Game
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+Everyone loves Jeopardy and this is my version: Jeopard-ish, the game! 
 
 **Link to project:** https://jeopard-ish.netlify.app
 
@@ -7,48 +7,11 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** JavaScript, HTML, CSS, APIs
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+The game board is dynamically generated using JavaScript. The categories and answers are pulled in from an [api](https://jservice.io/). Users can generate a new game and the categories are randomly chosen. The user then selects the answer and types the question into the answer input box. The app then tells the user whether they are correct or not but the user can over ride this decision since the answers can be nuanced and still acceptable. Points are then alloted based on the final decision.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Other projects:
-Take a look at some of my other projects:
-
-<table bordercolor="#66b2b2">
-  
-  <tr>
-    <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/brendondsouza/nasa-apod">NASA Picture of the Day</a>
-        <br />
-      <a target="_blank" href="https://github.com/brendondsouza/nasa-apod">
-            <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/nasa.gif" width="100%"  alt="nasa app"/>
-        </a>
-    </td>
-     <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/brendondsouza/my-portfolio">My Portfolio</a>
-        <br />
-        <a target="_blank" href="https://github.com/brendondsouza/my-portfolio">
-          <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/portfolio.gif" width="100%" alt="Portfolio"/>
-        </a>
-    </td>
-    <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/brendondsouza/The-Office">"That's What She Said"</a>
-      <br />
-        <a target="_blank" href="https://github.com/brendondsouza/The-Office">
-          <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/office.gif" width="100%" alt="the office app"/>
-        </a>
-    </td>
-   
-  </tr>
-</table>
-
+This was the first time I used promise.all so it was a great way to learn how to resolve multiple promises simultaneously.
 
